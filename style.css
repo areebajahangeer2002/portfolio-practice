@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    font-family: Roboto;
+    font-weight: 200;
+    margin-left: 200px;
+    color:black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+ul{
+    margin-right: 200px;
+    list-style: none;
+    display: flex;
+    color: #fff;
+    justify-content: space-evenly; 
+    align-items: center;
+    width: 600px;
+    font-family: roboto;
+    font-weight: 20;
+    font-size: small;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+}
+li a{
+color: black;
+}
+
+.border{
+    border-right: 1px solid gray;
+    padding: 18px
+    }
+a{
+    text-decoration: none;
+}
+section{
+
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(./images/bg-4.jpg);
+}
+nav{
+    width: 100%;
+   align-items: center;
+   display: flex;
+   justify-content: space-between;
+   height: 50px;
+   background-color: #FFFFFF;
+   box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+.text{
+    text-align: left;
+    position: relative;
+    top: 150px;
+    left: 150px;
+    width: fit-content;
+}
+h1{
+    margin-bottom: 12px;
+    margin-top: 12px;
+    font-family: Roboto;
+    font-weight: 20;
+    width: fit-content;
+}
+.name{
+    width: fit-content;
+    font-size: 80px;
+    color: #fff;
+    font-weight: 500;
+}
+.intro{
+    width: fit-content;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 500;
+    font-family: Roboto;
+    color:#dc965a ;
+}
+.me{
+    width: fit-content;
+    color: #fff;
+    text-align: justify;
+    font-family: Roboto;
+}
+.button{
+    width: fit-content;
+    background-color: #dc965a;
+    color: #fff;
+    padding: 10px 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border: none;
+    text-decoration: none;
+    font-weight: 5;
+
+} .social-icons a:hover{
+    color: #000000;
+    transition: all ease 0.5s;
+}
+#home{
+    color: red;
+}
+.social-icons{
+    
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    color: black;
+}
+.border-icons{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #e6e3e3;
+    align-items: center;
+    margin: 7px 7px;
+   }
+.border-icons i{
+    padding: 12px;
+}
+.first{
+
+   background-color: #dc965a ;
+    height: 600px;
+    width: 500px;
+}
+img{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 300px;
+    height: 400px;
+    width: 300px;
+    border: 5px solid white;
+}
+.second{
+    background-color: white;
+    height: 600px;
+}
+.introduction{
+    margin-top: 150PX;
+    margin-bottom: 1000px;
+    margin-right: 300px;
+    margin-left: 160px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.button-two{
+    width: fit-content;
+    background-color: #dc965a;
+    color: #fff;
+    padding: 10px 10px;
+    font-size: 15;
+    letter-spacing: 1px;
+    border: none;
+    text-decoration: none;
+    font-weight: 5;
+}
+.name-two{
+    font-size: 25px;
+    font-weight: bold;
+}
+.biodata{
+    display:grid;
+    grid-template-columns:auto auto auto auto;
+    grid-column-gap:40px ;
+}
+.one{
+    font-size: 16px;
+    font-weight: bold;
+}
+.three{
+    font-size: 16px;
+    font-weight: bold;
+}
+.last{
+    background-color: lightgray;
+    height: 200px;
+    padding: 50px;
+   
+}
+.second-last{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    margin-left: 550px;
+    }
+    h1{
+      text-align: center;
+    }
+    .last-one{
+        text-align: center;
+        color: lightslategray;
+    }
